@@ -1,0 +1,76 @@
+.container {
+  width: 100%;
+}
+
+.projectInfo {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.1rem solid #7a7a7a;
+  margin: 4rem 4rem 2rem 4rem;
+}
+
+.serviceInfo {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 4rem;
+}
+
+.serviceDetails {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+}
+
+.serviceTitle {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.serviceContainer {
+  width: 100%;
+}
+
+.serviceForm {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.1rem solid #7a7a7a;
+  margin: 0 4rem;
+}
+
+h1 {
+  background-color: #222;
+  color: #ffbb33;
+  padding: 0.5rem 0.5rem;
+}
+
+h2 {
+  padding: 0.5rem 0;
+}
+
+span {
+  font-weight: bold;
+}
+
+p {
+  margin: 0.8rem 1rem;
+}
+
+.btn {
+  background-color: #222;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  transition: 0.5s;
+  cursor: pointer;
+  max-height: 3rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 0.9rem;
+  border: none;
+}
+
+.btn:hover {
+  color: #ffbb33;
+}
